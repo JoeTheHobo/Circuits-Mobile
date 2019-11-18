@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Circuit Expirement</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
+	
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+	
+	<div class='direction'>
+		<div class='opt1' id='dirAuto' ontouchstart='switchDir("auto","dirAuto")'>Auto</div>
+		<div class='opt1' id='dirUp' ontouchstart='switchDir("up","dirUp")'>^</div>
+		<div class='opt1' id='dirLeft' ontouchstart='switchDir("left","dirLeft")'></div>
+		<div class='opt1' id='dirDown' ontouchstart='switchDir("down","dirDown")'>v</div>
+		<div class='opt1' id='dirRight' ontouchstart='switchDir("right","dirRight")'>></div>
+	</div>
+	<div class='leftBar2'></div>
+	<table id='grid'></table>
+	<script src="JS/simple.js"></script>
+	<script src="JS/prefs.js"></script>
+	<script src='JS/keys.js'></script>
+	<script src="JS/main.js"></script>
+	
+</body>
+</html>
